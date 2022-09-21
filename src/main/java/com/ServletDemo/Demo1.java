@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/Demo1")
+@WebServlet(urlPatterns = "/Demo1") //默认可以不写urlPatterns
 public class Demo1 implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
