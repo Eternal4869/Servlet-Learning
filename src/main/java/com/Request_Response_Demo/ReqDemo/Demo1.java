@@ -9,6 +9,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 //Request获取请求数据
+//与c.html关联
 
 @WebServlet("/req1")
 public class Demo1 extends HttpServlet {
