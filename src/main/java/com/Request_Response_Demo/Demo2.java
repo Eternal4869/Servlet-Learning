@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * request继承体系
+ * request继承体系(response也一样)
  * ServletRequest：Java提供的请求对象根接口
  * HttpServletRequest：Java提供的对Http协议封装的请求对象接口
  * RequestFacade：Tomcat定义的实现类
